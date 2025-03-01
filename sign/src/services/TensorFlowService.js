@@ -10,7 +10,7 @@ class TensorFlowService {
     this.onDisconnectCallback = null;
   }
 
-  connect(serverUrl = 'http://localhost:5000') {
+  connect(serverUrl = 'http://localhost:5001') {
     if (this.socket) {
       this.socket.disconnect();
     }

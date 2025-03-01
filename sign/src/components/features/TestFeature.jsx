@@ -210,7 +210,17 @@ const TestFeature = () => {
               <div className="flex flex-col items-center">
                 {/* Video display area */}
                 <div className="bg-gray-100 rounded-xl w-full aspect-video mb-6 flex items-center justify-center overflow-hidden relative">
-                  {cameraActive ? (
+                  {!cameraActive ? (
+                    <div className="text-gray-400 flex flex-col items-center">
+                      <Camera size={48} className="mb-2" />
+                      <p>Camera preview will appear here</p>
+                      {permissionError && (
+                        <p className="text-red-500 text-sm mt-2">
+                          Camera permission denied. Please check your browser settings.
+                        </p>
+                      )}
+                    </div>
+                  ) : (
                     <>
                       <video 
                         ref={videoRef} 
@@ -239,16 +249,6 @@ const TestFeature = () => {
                         </div>
                       )}
                     </>
-                  ) : (
-                    <div className="text-gray-400 flex flex-col items-center">
-                      <Camera size={48} className="mb-2" />
-                      <p>Camera preview will appear here</p>
-                      {permissionError && (
-                        <p className="text-red-500 text-sm mt-2">
-                          Camera permission denied. Please check your browser settings.
-                        </p>
-                      )}
-                    </div>
                   )}
                 </div>
                 

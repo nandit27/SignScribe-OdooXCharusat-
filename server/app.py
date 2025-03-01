@@ -1,4 +1,3 @@
-# app.py
 from flask import Flask, request, jsonify
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
@@ -18,7 +17,7 @@ interpreter = None
 
 def load_model():
     global interpreter
-    model_path = os.path.join(os.path.dirname(__file__), 'model', 'sign_language_model.tflite')
+    model_path = os.path.join(os.path.dirname(__file__), 'model', 'TheLastDance.tflite')
     interpreter = tf.lite.Interpreter(model_path=model_path)
     interpreter.allocate_tensors()
     print("Model loaded successfully")
@@ -86,4 +85,4 @@ def health_check():
 
 if __name__ == '__main__':
     load_model()
-    socketio.run(app, host='0.0.0.0', port=5000, debug=True)
+    socketio.run(app, host='0.0.0.0', port=5001, debug=True)
