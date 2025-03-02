@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "SignScribe has transformed how I communicate with my deaf colleagues. It's intuitive and accurate.",
+      quote: "SynaEra has transformed how I communicate with my deaf colleagues. It's intuitive and accurate.",
       author: "Sarah J.",
       role: "Teacher"
     },
@@ -39,7 +39,7 @@ const Testimonials = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-gray-600 max-w-2xl mx-auto"
           >
-            Hear from people who use SignScribe in their daily lives
+            Hear from people who use SynaEra in their daily lives
           </motion.p>
         </div>
         

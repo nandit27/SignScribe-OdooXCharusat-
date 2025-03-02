@@ -7,7 +7,7 @@ const DownloadSection = () => {
         <div className="bg-gradient-to-r from-teal to-orange-DEFAULT rounded-2xl p-12 text-white text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Break Communication Barriers?</h2>
           <p className="max-w-2xl mx-auto mb-8">
-            Download SignScribe today and experience seamless sign language translation at your fingertips.
+            Download SynaEra today and experience seamless sign language translation at your fingertips.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="white">

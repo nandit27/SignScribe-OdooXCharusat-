@@ -10,8 +10,8 @@ const Navbar = () => {
     <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center gap-2">
-          <img src={SignScribe} alt="SignScribe Logo" className="h-10" />
-          <span className="text-xl font-semibold text-teal">SignScribe</span>
+          <img src={SignScribe} alt="SynaEra Logo" className="h-10" />
+          <span className="text-xl font-semibold text-teal">SynaEra</span>
         </div>
         
         {/* Desktop Navigation */}

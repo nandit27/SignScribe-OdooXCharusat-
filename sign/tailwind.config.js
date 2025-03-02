@@ -48,7 +48,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // SignScribe custom colors
+        // SynaEra custom colors
         teal: {
           DEFAULT: "#4FBDBA", // Teal color from logo
         },

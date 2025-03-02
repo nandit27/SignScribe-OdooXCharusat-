@@ -6,7 +6,7 @@ const HowItWorks = () => {
     {
       number: "01",
       title: "Download the App",
-      description: "Get SignScribe from your device's app store and create your account."
+      description: "Get SynaEra from your device's app store and create your account."
     },
     {
       number: "02",
@@ -40,7 +40,7 @@ const HowItWorks = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-gray-600 max-w-2xl mx-auto"
           >
-            SignScribe makes translation simple with just a few steps
+            SynaEra makes translation simple with just a few steps
           </motion.p>
         </div>
         

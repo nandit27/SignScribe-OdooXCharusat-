@@ -32,7 +32,7 @@ const Features = () => {
             Powerful Features
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            SignScribe combines cutting-edge technology with intuitive design to make sign language communication seamless.
+            SynaEra combines cutting-edge technology with intuitive design to make sign language communication seamless.
           </p>
         </div>
         

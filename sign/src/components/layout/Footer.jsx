@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo-white.svg" alt="SignScribe Logo" className="h-8" />
-              <span className="text-xl font-semibold">SignScribe</span>
+              <img src="/logo-white.svg" alt="SynaEra Logo" className="h-8" />
+              <span className="text-xl font-semibold">SynaEra</span>
             </div>
             <p className="text-gray-400">
               Breaking barriers in sign language communication with innovative technology.
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2023 SignScribe. All rights reserved.</p>
+          <p className="text-gray-400">© 2023 SynaEra. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Twitter size={20} />

@@ -13,7 +13,7 @@ const Hero = () => {
             Breaking Barriers in <span className="text-teal">Sign Language</span> Communication
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            SignScribe translates sign language to text and speech in real-time, making communication accessible for everyone.
+            SynaEra translates sign language to text and speech in real-time, making communication accessible for everyone.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="primary">
@@ -39,14 +39,14 @@ const Hero = () => {
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                 <img 
                   src={homescreen} 
-                  alt="SignScribe App Home Screen" 
+                  alt="SynaEra App Home Screen" 
                   className="w-full h-auto"
                 />
               </div>
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                 <img 
                   src={translationscreen} 
-                  alt="SignScribe Translation Screen" 
+                  alt="SynaEra Translation Screen" 
                   className="w-full h-auto"
                 />
               </div>

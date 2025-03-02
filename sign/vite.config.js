@@ -10,4 +10,14 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    proxy: {
+      '/predict': {
+        target: 'http://localhost:5001',
+        changeOrigin: true,
+        secure: false,
+        cors: true
+      }
+    }
+  }
 })
